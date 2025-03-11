@@ -14,3 +14,13 @@ Visualizing insights with Streamlit for real-time monitoring.
 #### 4️⃣ Streamlit Dashboard for Visualization
 ##### Build a Streamlit dashboard for real-time monitoring
 
+### how to run:
+```
+pip install -r requirements.txt
+```
+```
+python pipeline.py
+```
+```
+streamlit run app.py
+```
