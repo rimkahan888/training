@@ -77,3 +77,4 @@ with pipeline.default_schema.engine.connect() as conn:
     result = conn.execute(query).fetchall()
     for row in result:
         print(row)
+    
