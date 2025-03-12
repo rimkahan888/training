@@ -64,7 +64,7 @@ pipeline = dlt.pipeline(
     destination="duckdb",
     dataset_name="football_data"
 )
-
+    
 # Run the pipeline
 load_info = pipeline.run(github_json_source())
 
