@@ -20,7 +20,7 @@ def fetch_github_json(url: str) -> Dict[str, Any]:
         
     response = requests.get(raw_url)
     response.raise_for_status()  # Raise exception for failed requests
-    
+       
     return response.json()
 
 @dlt.source
