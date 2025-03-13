@@ -1,7 +1,7 @@
 import dlt
 import requests
 from typing import Dict, List, Any, Iterator
-
+  
 def fetch_github_json(url: str) -> Dict[str, Any]:
     """
     Fetches JSON data from GitHub raw content URL.
