@@ -54,7 +54,7 @@ def transform_data():
 
 
 def run_etl():
-    # load_duckdb_repo_reactions_issues_only()
+    load_duckdb_repo_reactions_issues_only()
     transform_data()
     print("ETL process completed successfully!")
 
