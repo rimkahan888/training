@@ -6,7 +6,5 @@ secrets.toml
 **/*.py[cod]
 **/*$py.class
 # ignore duckdb
-*.duckdb
 *.wal
-*.duckdb
 *.venv
